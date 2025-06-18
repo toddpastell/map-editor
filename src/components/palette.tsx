@@ -96,7 +96,6 @@ export function Palette({ image }: Props) {
           style={style}
         />
       </div>
-      <div>{selected}</div>
     </div>
   )
 }
