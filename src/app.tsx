@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Canvas, Config, FileInput, Palette } from './components'
+import { Config, FileInput, Map, Palette } from './components'
 
 export function App() {
   const [image, setImage] = useState<ImageBitmap | null>(null)
@@ -15,7 +15,7 @@ export function App() {
       {image && (
         <div className='inline-flex gap-4'>
           <Palette image={image} />
-          <Canvas image={image} />
+          <Map image={image} />
         </div>
       )}
     </div>

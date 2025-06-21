@@ -1,1 +1,6 @@
 @import 'tailwindcss';
+
+@utility bg-grid {
+  background-image: radial-gradient(var(--color-sky-200) 1px, transparent 1px);
+  background-size: 1rem 1rem;
+}
